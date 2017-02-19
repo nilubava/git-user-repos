@@ -1,0 +1,6 @@
+<ul>
+  <li ng-repeat="repo in $ctrl.repos track by $index">
+    <a ng-href="{{repo.html_url}}">{{repo.name}}</a>
+    <p>{{repo.description}}</p>
+  </li>
+</ul>

@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Git User Repository Search</h1>
+  <search-bar on-search="$ctrl.getUsers(search)" search="search"></search-bar>
+  <repo-list repos="$ctrl.repos"></repo-list>
+
+  <p class="error" ng-if="$ctrl.error">
+    {{$ctrl.error}}
+  </p>
+</div>

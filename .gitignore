@@ -1,0 +1,12 @@
+.sass-cache/
+.idea/
+.tmp/
+vendor/
+build/
+dist/
+node_modules/
+reports/
+coverage
+build/*
+.DS_Store
+TESTS-PhantomJS_2.1.1_(Mac_OS_X_0.0.0).xml
